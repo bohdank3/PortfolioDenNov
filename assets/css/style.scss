@@ -1,0 +1,24 @@
+$darkText: #070707;
+$darkTextLight: #828282;
+$whiteText:#FFFFFF;
+
+@font-face {
+	font-family:"Gilroy-Bold";
+	font-style: bold;
+	font-weight: 700;
+	src: url(../fonts/Gilroy-Bold.woff2) format("woff2");
+
+}
+@font-face {
+	font-family: "Gilroy-medium";
+	font-style: medium;
+	font-weight: 500;
+	src: url(../fonts/Gilroy-Medium.woff2) format("woff2");
+}
+
+body.html{
+	height: 100vh;
+}
+body{
+	
+}
