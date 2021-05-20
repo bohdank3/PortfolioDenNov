@@ -10,17 +10,17 @@ h1, h2, h3, h4, h5, h6 { margin: 0; }
 
 p { margin: 0; }
 
-.header { background-color: #FFFFFF; }
+.header { background-color: #FFFFFF; height: 80vh; }
 
 .container { max-width: 1170px; margin: auto; }
 
 .menu__list { font-family: Gilroy-Bold; padding: 0; display: -webkit-box; display: -ms-flexbox; display: flex; -ms-flex-wrap: nowrap; flex-wrap: nowrap; -webkit-box-pack: justify; -ms-flex-pack: justify; justify-content: space-between; }
 
-.menu__list-item:first-child { margin: 95px 77px 34px 0px; }
+.menu__list-item:first-child { margin: 45px 77px 34px 0px; }
 
-.menu__list:last-child { margin: 95px 0px 34px 75px; }
+.menu__list:last-child { margin: 45px 0px 34px 75px; }
 
-.menu__list-item { margin: 95px 77px 34px 75px; color: #828282; }
+.menu__list-item { margin: 45px 77px 34px 75px; color: #828282; }
 
 .menu__list-item:hover { color: #070707; }
 
@@ -36,6 +36,24 @@ p { margin: 0; }
 .block__lang { -webkit-transform: rotate(-90deg); transform: rotate(-90deg); font-family: "Gilroy-Bold"; color: #828282; }
 .block__lang span { color: #070707; }
 
-.block__photo { width: 100%; height: 450px; }
+.block__photo { width: 100%; height: 450px; display: block; }
+
+.about { margin-top: 45px; background: #F6F6F6; height: 40vh; }
+
+.container-flex { display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-orient: vertical; -webkit-box-direction: normal; -ms-flex-direction: column; flex-direction: column; -webkit-box-align: center; -ms-flex-align: center; align-items: center; -webkit-box-pack: center; -ms-flex-pack: center; justify-content: center; }
+
+.name { font-family: "Gilroy-Bold"; font-size: 34px; line-height: 42px; padding: 40px; margin-bottom: 20px; }
+
+.about__me, .about__courses, .about__project { padding-top: 20px; text-align: center; }
+
+.skils__about { padding-bottom: 73px; }
+
+.skils__container { display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-orient: horizontal; -webkit-box-direction: normal; -ms-flex-direction: row; flex-direction: row; }
+
+.skils__inner { margin: 0px 40px 0px 40px; display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-orient: vertical; -webkit-box-direction: normal; -ms-flex-direction: column; flex-direction: column; -webkit-box-align: center; -ms-flex-align: center; align-items: center; -webkit-box-pack: center; -ms-flex-pack: center; justify-content: center; }
+
+.skils__name { color: #828282; font-size: 14px; line-height: 17px; text-align: center; padding-top: 20px; }
+
+.skils__photoshop-stars { padding-top: 30px; }
 
 /*# sourceMappingURL=style.css.map */

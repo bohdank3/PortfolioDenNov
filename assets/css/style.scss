@@ -1,6 +1,7 @@
 $darkText: #070707;
 $darkTextLight: #828282;
 $whiteText:#FFFFFF;
+$darkBg:#F6F6F6;
 
 @font-face {
 	font-family:"Gilroy-Bold";
@@ -40,6 +41,7 @@ p{
 }
 .header{
 	background-color: #FFFFFF;
+	height: 80vh;
 }
 .container{
 	max-width: 1170px;
@@ -53,13 +55,13 @@ p{
 	justify-content: space-between;
 }
 .menu__list-item:first-child {
-	margin:95px 77px 34px 0px;
+	margin:45px 77px 34px 0px;
 }
 .menu__list:last-child{
-	margin:95px 0px 34px 75px;
+	margin:45px 0px 34px 75px;
 }
 .menu__list-item{
-	margin: 95px 77px 34px 75px;
+	margin: 45px 77px 34px 75px;
 	color: $darkTextLight;
 }
 .menu__list-item:hover{
@@ -98,4 +100,56 @@ p{
 .block__photo{
 	width: 100%;
 	height: 450px;
+	display: block;
+}
+.about{
+	margin-top: 45px;
+	background: $darkBg;
+	height: 40vh;
+
+}
+	.container-flex {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		justify-content: center;
+	}
+.name{
+	font-family: "Gilroy-Bold";
+	font-size: 34px;
+	line-height: 42px;
+	padding: 40px;
+	margin-bottom: 20px;
+}
+.about__me,
+.about__courses,
+.about__project {
+	padding-top: 20px;
+	text-align: center;
+}
+.skils__about{
+	padding-bottom: 73px;
+}
+
+.skils__container{
+	display: flex;
+	flex-direction: row;
+}
+.skils__inner {
+	margin: 0px 40px 0px 40px;
+	display: flex;
+	flex-direction: column;
+	align-items:center;
+	justify-content: center;
+}
+.skils__name {
+	color: $darkTextLight;
+	font-size: 14px;
+	line-height: 17px;
+	text-align: center;
+	padding-top: 20px;
+}
+.skils__photoshop-stars{
+	padding-top: 30px;
+
 }
