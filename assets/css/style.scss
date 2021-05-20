@@ -128,7 +128,7 @@ p{
 	text-align: center;
 }
 .skils{
-	height: 40vh;
+	height: 52vh;
 }
 .skils__about{
 	padding-bottom: 73px;
@@ -155,4 +155,21 @@ p{
 .skils__photoshop-stars{
 	padding-top: 30px;
 	margin-bottom: 50px;
+}
+.portfolio{
+	background-color:$darkBg;
+	
+}
+.portfolio__inner {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	margin-bottom: 48px;
+
+}
+.portfolio__link{
+	text-decoration: underline;
+	color: $darkText;
+	padding: 40px;
 }
